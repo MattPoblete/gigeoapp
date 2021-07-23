@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.png">
     <title>GIGEO</title>
 </head>
 <body>
-    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#"><img class="img-fluid nav__icon" src="assets/img/nav__logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link row" aria-current="page" href="#"><i class="fas fa-search d-inline"></i><p class="d-inline d-lg-none">Buscar...</p></a>
+              <a class="nav-link row" href="#"><i class="fas fa-video d-inline"></i><p class="d-inline d-lg-none">Videos</p></a>
+              <a class="nav-link row" href="#"><i class="far fa-bell d-inline"></i><p class="d-inline d-lg-none">Notificaciones</p></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!--Herosection-->
+    <header class="container-fluid header">
+    </header>
+    <!--Seccion canal-->
+    <section class="container-fluid user">
+        <div class="row justify-content-between align-items-center">
+            <div class="canal__user row col-sm-12 col-md-6 align-items-center py-2">
+                <div class="d-flex justify-content-end col-6">
+                    <img class="rounded-circle user__image" src="assets/img/profile-image.png" alt="profile image">
+                </div>
+                <div class="user__data col-6">
+                    <h5>Yuki Mukami</h5>
+                    <h6 class="user__followers">30.000 seguidores</h6>
+                </div>
+            </div>
+            <div class="canal__buttons row col-md-6 justify-content-center d-none d-md-flex">
+                <button type="button" class="btn btn-message col-3  col-md-2 col-lg-2 col-xxl-1 px-1 mx-1">Mensaje</button>
+                <button type="button" class="btn btn-follow col-3 col-md-2 col-lg-2 col-xxl-1 px-1 mx-1">Seguir</button>
+            </div>
+        </div>
+    </section>
+    <!--Seccion videos-->
+    <section class="container section_videos my-4">
+        <h3>Videos populares</h3>
+        <div class="row">
+            <!--video item-->
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-1.png" alt="">
+                <h4>Después de la vela - Yuki Mukami</h4>
+                <p>16k visitas - 1 semana atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-2.png" alt="">
+                <h4>Después de la vela - Yuki Mukami</h4>
+                <p>100k visitas - 1 mes atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-3.png" alt="">
+                <h4>City - Yuki Mukami</h4>
+                <p>20k visitas - 1 mes atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-4.png" alt="">
+                <h4>A Yuki Tale - Yuki Mukami</h4>
+                <p>1m visitas - 1 año atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-5.png" alt="">
+                <h4>Después de la vela - Yuki Mukami</h4>
+                <p>100k visitas - 1 mes atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-6.png" alt="">
+                <h4>Luky Days - Yuki Mukami</h4>
+                <p>40k visitas - 3 meses atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-7.png" alt="">
+                <h4>30 days in My House</h4>
+                <p>10k visitas - 4 meses atrás</p>
+            </div>
+            <div class="videos__item col-sm-12 col-md-6 col-lg-3 my-3 px-3">
+                <img class="img-fluid videos__img" src="assets/img/image-8.png" alt="">
+                <h4>Santiago - Yuki Mukami</h4>
+                <p>40k visitas - 3 meses atrás</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
+    <script src="https://kit.fontawesome.com/87b8ff2300.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+//base bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+
+//aquí va lo mio
+    //abstracts
+        @import "abstracts/variables";
+    //base
+        @import "base/base";
+        @import "base/typography";
+
+    //components
+        @import "components/buttons";
+    //layout
+        @import "layout/navbar";
+        @import "layout/header";
+        @import "layout/section";
+    //pages
+
+    //themes
+
+//hasta aqui
+
+//resto de bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
